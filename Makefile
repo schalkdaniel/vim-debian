@@ -11,6 +11,7 @@ r:
 	sudo apt install r-base
 	ln -s -f ~/vim-debian/.dotfiles/.Renviron ~/
 	ln -s -f ~/vim-debian/.dotfiles/.bash_aliases ~/
+	source ~/.bashrc
 
 vim:
 	mkdir -p ~/.vim/autoload/
