@@ -1,6 +1,7 @@
 all:
 	make r
 	make vim
+	make tmux
 	
 
 r:
@@ -19,3 +20,6 @@ vim:
 	mv plug.vim ~/.vim/autoload/
 	ln -s -f ~/vim-debian/.vimrc ~/
 
+tmux:
+	sudo apt install tmux
+	ln -s -f ~/vim-debian/.dotfiles/.tmux.conf ~/
